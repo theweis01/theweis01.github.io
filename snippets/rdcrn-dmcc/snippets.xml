@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Snippets>
+
+	<Snippet type="sample">
+		<Name label="DMCC-Documentation"/>
+		<Documentation uri="http://support.sas.com/kb/49/301.html"/>
+		<Template uri="./dmcc-documents.sas"/>
+		<Icon uri="./dmcc-images.png"/>
+	</Snippet>
+
+</Snippets>

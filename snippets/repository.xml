@@ -8,29 +8,12 @@
 
 
 	<Snippets>
-
-		<Category label="SGPlot Samples">
-			<Documentation 
-					uri="http://support.sas.com/documentation/cdl/en/grstatproc/67909/HTML/default/viewer.htm#p073bl97jzadkmn15lhq58yiy2uh.htm" 
-					label="SAS(R) 9.4 ODS Graphics: Procedures Guide, Fifth Edition"/>
-			<Documentation uri="http://support.sas.com/documentation/cdl/en/proc/67916/HTML/default/viewer.htm#p19bcwkxesgd19n1ciwhc8l95s6s.htm" label="Procedures Guide"/>
-			<Location uri="./sgplot/snippets.xml"/>
-		</Category>  
-
-		<Category label="Import Snippets">
-			<Documentation 
-					uri="https://support.sas.com/documentation/cdl/en/proc/67916/HTML/default/viewer.htm#n18jyszn33umngn14czw2qfw7thc.htm" 
-					label="PROC IMPORT Statement"/>
-			<Location uri="./import/snippets.xml"/>
-		</Category>  
-
-		<Category label="DBMS Snippets">
-			<Documentation 
-					uri="https://support.sas.com/documentation/cdl/en/acreldb/68028/HTML/default/viewer.htm#titlepage.htm" 
-					label="SAS/ACCESS® 9.4 for Relational Databases"/>
-			<Location uri="./access/snippets.xml"/>
-		</Category>  
-
+                <Category label="RDCRN DMCC Shared">
+                        <Documentation
+                                        uri="https://support.sas.com/documentation/cdl/en/acreldb/68028/HTML/default/viewer.htm#titlepage.htm"
+                                        label="DMCC Shared Snippets"/>
+                        <Location uri="./rdcrn-dmcc/snippets.xml"/>
+                </Category>
 
 	</Snippets>
 
