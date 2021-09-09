@@ -8,4 +8,9 @@
 		<Icon uri="./dmcc-images.png"/>
 	</Snippet>
 
+        <Snippet type="sample">
+                <Name label="REDCap API Export"/>
+                <Template uri="./REDCapAPIExport.sas"/>
+        </Snippet>
+
 </Snippets>
