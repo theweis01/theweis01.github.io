@@ -5,5 +5,9 @@
                 <Name label="REDCap API Export"/>
                 <Template uri="./REDCapAPIExport.sas"/>
         </Snippet>
+        <Snippet type="sample">
+                <Name label="Hello World"/>
+                <Template uri="./Hello.sas"/>
+        </Snippet>
 
 </Snippets>
