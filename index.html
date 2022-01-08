@@ -15,7 +15,6 @@
         }
         .HeadFloat{
             max-width: 855px;
-            float: left;
         }
         .Title{
             width: 50%; 
@@ -25,8 +24,12 @@
             width: 50%; 
             float: left;
         }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+            }
         .Instructions{
-            position: relative;
         }
     </style>
   <title>Loveland School Masking Support</title>
@@ -35,10 +38,12 @@
 <body>
 
 <!-- Site navigation menu -->
+<section>
 <div class="HeadFloat">
     <div class="Title"><h2>Loveland School Masking Support</h2></div>
     <div class="Logo"><img src='LovelandSchool.png'></div>
 </div>
+</section>
 <div class="Instructions">
 <p>Help us protect out children, teachers, and community by performing the following steps.
     <ol>
