@@ -1,6 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
+    <script>
+        function CopyToClipboard(containerid) {
+            if (document.selection) {
+                var range = document.body.createTextRange();
+                range.moveToElementText(document.getElementById(containerid));
+                range.select().createTextRange();
+                document.execCommand("copy");
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(document.getElementById(containerid));
+                window.getSelection().addRange(range);
+                document.execCommand("copy");
+                alert("Text has been copied, now paste in the text-area")
+            }
+        }
+    </script>
     <style>
         .MailContent {
             max-width: 855px;
@@ -48,7 +64,7 @@
     <ol>
         <li>Open your email client and start a new email by <a href="mailto:testmal@loveland.oh.test?subject=Support for Continued School Masking&body=Paste site contents here" target="_blank" rel="noopener noreferrer">clicking this link.</a>
         </li>
-        <li>Copy the contents of the below template into the body of your email message.
+        <li>Copy the contents of the below template into the body of your email message. <button id="button1" onclick="CopyToClipboard('MailContent')">Click to copy</button>
         </li>
         <li>Add your name, comment and additonal supporting comments to the bottom of the message. 
         </li>
